@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a la Ciberseguridad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body class="bg-primary text-white "></body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark px-5 ">
+    <div class="container">
+        <a class="navbar-brand" href="https://eLabs.cl">
+            <img src="assets/img/brand_Logo.png" alt="Logo" width="50" height="48"
+                class="d-inline-block align-text-top img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMobile">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="consejos.html">Consejos</a></li>
+                <li class="nav-item"><a class="nav-link" href="amenazas.html">Amenazas</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container mt-4 ">
+    <h1 class="text-center">Introducción a la Ciberseguridad</h1>
+    <h2 class="text-center text-warning">Resumen Técnico de las 6 Funciones de Alto Nivel del Marco NIST CSF (SP 1300)
+    </h2>
+    <p class="text-center  ">El Marco de Ciberseguridad del NIST (NIST Cybersecurity Framework - CSF), estructurado en
+        su
+        núcleo alrededor de seis funciones de alto nivel (Govern, Identify, Protect, Detect, Respond, Recover),
+        proporciona
+        un modelo estratégico y operativo para gestionar el riesgo cibernético de forma integral y adaptativa. Estas
+        funciones no son fases secuenciales, sino dominios interconectados que operan de forma continua y concurrente:
+    </p>
+</div>
+
+<img src="assets/img/Nist2.0.webp" alt="Términos de Nist2 CSF En inglés" width="50%" height="80%"
+    class="d-inline-block align-text-top img-fluid mx-auto d-block">
+
+<div class="container mt-4 col-12 col-md-6 col-lg-12">
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    1.- GOBERNAR (Govern)
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Establece el marco de gestión del riesgo cibernético a nivel estratégico. Define políticas,
+                    estrategias, roles, responsabilidades, procesos de supervisión y mecanismos de asignación de
+                    recursos. Incluye la integración del riesgo cibernético en la gobernanza corporativa general (ERM -
+                    Enterprise Risk Management), asegurando alineación con objetivos de negocio y cumplimiento
+                    normativo. Es la base para la toma de decisiones informada sobre priorización de inversiones en
+                    seguridad.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                    2.- IDENTIFICAR (Identify)
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Se enfoca en la comprensión contextual del entorno operativo para gestionar el riesgo. Implica el
+                    desarrollo y mantenimiento de inventarios dinámicos de activos (hardware, software, datos, personas)
+                    y la identificación de flujos de datos críticos. Incluye la evaluación de amenazas y
+                    vulnerabilidades, el análisis de impacto al negocio (BIA - Business Impact Analysis) y la definición
+                    del perfil de riesgo de la organización. Es fundamental para una gestión proactiva basada en activos
+                    críticos.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                    3.- PROTEGER (Protect)
+                </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Implementa controles y salvaguardas técnicas y organizativas para mitigar riesgos identificados.
+                    Cubre áreas clave como:<br><br>
+                    <dt>Gestión de Accesos (IAM - Identity and Access Management):</dt>Autenticación fuerte, principio
+                    de
+                    mínimo privilegio.<br><br>
+                    <dt>Protección de Datos:</dt> Cifrado (en reposo, tránsito), gestión de claves, prevención de
+                    pérdida
+                    (DLP).<br><br>
+                    <dt> Protección de Infraestructura:</dt> Hardening de sistemas, gestión de configuraciones seguras
+                    (SCM),
+                    parcheo.<br><br>
+                    <dt> Resiliencia Tecnológica:</dt> Planes de continuidad de negocio.<br>
+                    <br>
+                    <dt>Concienciación y Formación:</dt> Educación del usuario final.<br><br>
+                    <dt>Seguridad en Tecnologías Emergentes.<br><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                    4.- DETECTAR (Detect)
+                </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Implementa capacidades para identificar la ocurrencia de eventos de ciberseguridad de manera
+                    oportuna. Incluye:<br>
+                    <br>
+                    <dt> Monitoreo Continuo (Continuous Monitoring):</dt> Uso de SIEM (Security Information and Event
+                    Management), IDS/IPS (Sistemas de Detección/Prevención de Intrusiones), EDR (Endpoint Detection and
+                    Response).<br>
+                    <br>
+                    <dt> Detección de Anomalías:</dt> Análisis de comportamiento (UEBA - User and Entity Behavior
+                    Analytics).<br>
+                    <br>
+                    <dt> Procesos de Búsqueda de Amenazas (Threat Hunting):</dt> Actividades proactivas.<br>
+                    <br>
+                    <dt> Pruebas de Vulnerabilidades:</dt> Escaneos regulares, evaluaciones de penetración.<br>
+                    <br>
+                    <dt> Verificación de la Efectividad de los Controles de Protección.<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                    5.- RESPONDER (Respond)
+                </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Define las acciones para contener y mitigar el impacto de un incidente detectado. Comprende:<br>
+                    <br>
+                    <dt> Planificación de Respuesta a Incidentes (Incident Response Plan - IRP):</dt> Roles,
+                    procedimientos,
+                    comunicación.<br>
+                    <br>
+                    <dt> Análisis Forense:</dt> Preservación de evidencia, determinación del alcance y causa raíz.<br>
+                    <br>
+                    <dt> Contención, Erradicación y Recuperación:</dt> Actuaciones técnicas para detener la amenaza y
+                    eliminar
+                    su presencia.<br>
+                    <br>
+                    <dt> Comunicación:</dt> Interna, externa (clientes, autoridades, partners) y gestión de la
+                    reputación.<br>
+                    <br>
+                    <dt> Mejoras Post-Incidente:</dt> Lecciones aprendidas, refinamiento de procesos.<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header bg-warning">
+                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseSix">
+                    6.- RECUPERAR (Recover)
+                </a>
+            </div>
+            <div id="collapseSix" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Se centra en la restauración de capacidades y servicios afectados y en la implementación de mejoras
+                    para la resiliencia futura. Incluye:<br>
+                    <br>
+                    <dt> Planificación de la Continuidad del Negocio (BCP) y Recuperación ante Desastres (DRP):</dt>
+                    Pruebas de
+                    planes, redundancias.<br>
+                    <br>
+                    <dt> Restauración de Sistemas y Datos:</dt> Desde backups validados.<br>
+                    <br>
+                    <dt>Comunicación sobre la Recuperación:</dt> Informar a las partes interesadas.<br>
+                    <br>
+                    <dt> Revisión Post-Recuperación:</dt>Análisis exhaustivo del incidente y la respuesta para
+                    actualizar
+                    estrategias, políticas, controles y planes (retroalimentando las funciones Govern, Identify y
+                    Protect).<br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt-4">
+    <h2 class="text-center text-warning">Esta es una invitación a tomar las medidas adecuadas de ciberseguridad para ti
+        y tu empresa</h2>
+    <p class="text-center">La implementación de NIST CSF proporciona un marco integral y flexible que permite a las
+        organizaciones
+        gestionar el riesgo cibernético de manera adaptativa, alineando la ciberseguridad con los objetivos de negocio
+        y garantizando una respuesta efectiva ante incidentes. Su enfoque basado en funciones interconectadas promueve
+        una cultura de seguridad proactiva y resiliente.</p>
+    <div class="pb-5 pt-5"> </div>
+
+
+</div>
+
+<!-- Footer -->
+    <footer class="footer ">
+        <div class="container-fluid bg-dark text-white py-3 ">
+            <div class="row justify-content-center">
+                <div class="col-md-3 mb-4 text-center">
+                    <h5>Consejos de Ciberseguridad</h5>
+                    <p>Recursos prácticos para mantener tu vida digital segura y protegida contra amenazas cibernéticas.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h5>Suscríbete</h5>
+                    <p>Recibe alertas de seguridad y consejos mensuales</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Tu correo electrónico">
+                        <button class="btn btn-primary btn-sm " type="button">Enviar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mb-2 text-center">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio Ciberseguridad</a></li>
+                        <li><a href="consejos.html" class="text-white">Consejos de Ciberseguridad</a></li>
+                        <li><a href="#" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr class="mt-1 mb-2">
+            <div class="text-center">
+                <p class="mb-0">© 2025 Desarrollado por <a href="https://eLabs.cl">eLabs.cl</a> | Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
