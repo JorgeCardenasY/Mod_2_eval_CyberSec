@@ -1,7 +1,3 @@
-¡Claro! Aquí tienes el texto transformado en un formato Markdown "hardcore" lleno de emojis y elementos visuales, sin modificar ni una sola palabra del contenido original.
-
-***
-
 # 🚀 Evaluación del módulo
 
 ## 🎯 Contexto
